@@ -50,4 +50,4 @@ db 3bh ; GIF terminator
 db '*/'  ; closing the comment
 db '=1;' ; creating a fake use of that GIF89a string
 
-db 'alert("Your information has been exposed!\nYour ip address: " + myip + "\nCookie enable: " + navigator.cookieEnabled + "\nJava enable: " + navigator.javaEnabled + "\nWindow width: " + window.screen.width + "\nWindow height: " + window.screen.height + "\nColor depth: " + window.screen.colorDepth + "\nApp name: " + navigator.appName + "\nApp version: " + navigator.appVersion);'
+db 'alert("Your information has been exposed!\nYour ip address: " + myip + "\nCookie enable: " + navigator.cookieEnabled + "\nJava enable: " + navigator.javaEnabled() + "\nWindow width: " + window.screen.width + "\nWindow height: " + window.screen.height + "\nColor depth: " + window.screen.colorDepth + "\nApp name: " + navigator.appName + "\nApp version: " + navigator.appVersion);'
