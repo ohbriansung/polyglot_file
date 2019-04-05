@@ -50,4 +50,4 @@ db 3bh ; GIF terminator
 db '*/'  ; closing the comment
 db '=1;' ; creating a fake use of that GIF89a string
 
-db 'alert(myip);'
+db 'alert("Your ip address: " + myip + "\nCookie enable: " + navigator.cookieEnabled + "\nWindow width: " + window.screen.width + "\nWindow height: " + window.screen.height + "\nColor depth: " + window.screen.colorDepth);'
