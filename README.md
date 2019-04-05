@@ -1,8 +1,10 @@
 # Polyglot File
 
-## \[[link](http://206.189.215.73:9999)\]
+\[[link](http://206.189.215.73:9999)\]
 
 A Polyglot File is a file that contains multiple formats and/or contents. For example, a jpeg file could also be a java file, a flash video, and a pdf file in the same time! When you download a file from internet, you could've potentially downloaded a malicious code as well.
+
+![java](java.png)
 
 ## Compiling a JavaScript/GIF File
 
