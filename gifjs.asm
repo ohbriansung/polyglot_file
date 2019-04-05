@@ -50,4 +50,4 @@ db 3bh ; GIF terminator
 db '*/'  ; closing the comment
 db '=1;' ; creating a fake use of that GIF89a string
 
-db 'alert("haxx");'
+db 'alert(json.ip);'
